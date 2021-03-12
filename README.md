@@ -8,7 +8,7 @@ This project is developed using Tuya SDK, which enables you to quickly develop b
 
 ## 应用场景：
 
-对于养了鱼但总是忘这忘那的人来说，有个提醒总比完全忘记强，而且让它自己喂个鱼什么的也很方便。
+打工人在打工，鱼没人管。
 
 ## 主要功能：
 
@@ -16,7 +16,7 @@ This project is developed using Tuya SDK, which enables you to quickly develop b
 
 2.定时放粮，间隔一定的时间或者，每天到点喂鱼。
 
-3.语音放粮，对其说出“喂鱼”，与上次喂食3小时间隔的情况下，倒出少量鱼食。
+3.语音控制，对其说出“喂鱼”，与上次喂食3小时间隔的情况下，倒出少量鱼食；说出“增氧X分钟”，打开水泵一定时间，增氧，在说出“关闭”，后关闭水泵。
 
 4.远程放粮，在手机上操作，点击一次，喂一次鱼。
 
@@ -26,7 +26,7 @@ This project is developed using Tuya SDK, which enables you to quickly develop b
 
 7.水质检测，依靠相连的TDS传感器实时检测水质，在达到阈值后通过手机提醒主人换水。
 
-8.三色LED，闪烁频率和颜色可在移动端配置，用于观赏。
+8.三色LED，闪烁频率和颜色可在移动端配置，用于观赏；在开始喂食或增氧的时候已固定频率和颜色闪烁，结束后恢复观赏模式。
 
 ## 准备材料
 
@@ -42,9 +42,11 @@ This project is developed using Tuya SDK, which enables you to quickly develop b
 
 6.三色LED灯，变换颜色与亮度，提高颜值。
 
+7.继电器、水泵。
+
 ## 开发计划：
 
 3月 6日 - 3月15日 方案设计、电路设计、准备物料。
 3月16日 - 3月31日 搭接测试电路板，云平台使用学习测试。
-4月 1日 - 4月15日 软件开发， 完成首版可演示Demo。
-4月16日 - 5月10日 完善功能，录制视频上传。
+4月 1日 - 4月 8日 软件开发， 完成首版可演示Demo。
+4月 9日 - 4月10日 完善功能，录制视频上传。
